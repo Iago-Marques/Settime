@@ -173,15 +173,19 @@ header{
     padding: 15px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 header img{
-    padding: 10px;
+    padding: 5px;
     width: 120px;
     height: 120px;
     border-radius: 70px;
 }
 
+nav{
+    height: 100%;
+}
 
 
 .menu{
@@ -194,9 +198,9 @@ header img{
 
 
 ul li{
+    padding: 5px;
     list-style: none;
-    margin-right: 25px;
-    margin-top: 40px;
+    margin-right: 30px;
     font-family: Arial;
     font-size: 20px;
     font-weight: bold;
