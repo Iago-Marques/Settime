@@ -1,8 +1,9 @@
 @charset "UTF8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
 @font-face{
@@ -31,7 +32,6 @@
 
 body{
     height: 100vh;
-    width:100vw;
     list-style: none;
     font-family: var(font-padrao);
 }
@@ -402,6 +402,7 @@ div.video > iframe{
       height:80%
 }
 
+
 /* INICIO GALERIA DE FOTO */
 
 .galeria-img{
@@ -445,6 +446,7 @@ div.video > iframe{
 .w-2{
     grid-column: span 2;
 }
+/* FIM GALERIA DE FOTO */
 
 /* GALERIA RESPONSIVA COM MÉDIA QUERY */
 
@@ -466,19 +468,84 @@ div.video > iframe{
 
 /*FIM RESPOSIVIDADE FOTOS */
 
-/* FIM GALERIA DE FOTO */
+/*INICIO FOOTER*/
+footer{
+    background-image:linear-gradient(to bottom, #d6c100, #cfbb03);
+    display: flex;
+    justify-content: space-between;
+    
+}
 
-  /*FIM TRAÍLER VIDEO*/
+.logo-footer{
+    margin-right: 80%;
+    padding: 15px;
+    
+}
 
-  footer{
-      padding: 30px;
-      padding-top: -50px;
-      background-image:linear-gradient(to bottom, #d6c100, #cfbb03);
-      font-family: var(--font-padrao);
-      font-size: 1.2em;
-      text-align: center;
-  }
+.img-footer{
+    width: 150px;
+    border-radius: 100px;
+    border: solid 2px black;
+}
 
+.whats-p1, .whats-p2{
+    display: flex;
+    padding: 5px 15px;
+    
+}
+
+.whats-p1 p, .whats-p2 p{
+    font-weight: normal;
+    margin: 4px 10px 0px 10px;
+}
+
+#whats-img-f, #whats-img-f2{
+    width: 30px;
+}
+
+.tel-p{
+    display: flex;
+    padding: 5px 15px;
+}
+
+.tel-p p{
+    font-weight: normal;
+    margin: 4px 10px 0px 10px;
+}
+
+#tel-img-f{
+    width: 30px;
+}
+
+.social-footer{
+    
+}
+
+.redes-footer{
+    background-color: #4170cc;
+    
+    
+}
+
+#face-f{
+       width: 30px;
+       padding: 5px;
+}
+
+.insta-f{
+    width: 30px;
+    padding: 5px;
+}
+
+.youtube-f{
+    width: 30px;
+    padding: 5px;
+}
+
+
+
+
+  /*FIM FOOTER*/
 /* FIM PAGINA INICIAL < --------- */
 
 
