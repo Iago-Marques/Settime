@@ -542,7 +542,7 @@ footer{
 /* FIM PAGINA INICIAL < --------- */
 
 
-/*INICIO QUEM SOMOS <----------- */
+/*INICIO  ---> QUEM SOMOS <----------- */
 
 .imagem-texto2{
     width: 100%;
@@ -571,6 +571,7 @@ footer{
 
 .img-corredor{
     height: 40em;
+
 }
 
 .img-corredor-texto p{
@@ -582,6 +583,7 @@ footer{
     padding: 10px;
     text-indent: 35px;
 }
+
 
 .caixa-nossos-valores{
     background-color: black;
