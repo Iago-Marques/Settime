@@ -563,16 +563,58 @@ footer{
     font-size: 60px;
 }
 
-.quem-somos-2{
-    background-image: url(imagens/templates/quem\ somos\ 2.jpg);
-    background-size: cover;
-    width: 70%;
-    height: 1000px;
-    margin-top: 20px;
-    margin-left: auto;
+.img-corredor-texto{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;;
 }
 
-.quem
+.img-corredor{
+    height: 40em;
+}
+
+.img-corredor-texto p{
+    width: 1000px;
+    height: 600px;
+    font-family:var(--font-padrao);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    text-indent: 35px;
+}
+
+.caixa-nossos-valores{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.valores-1, .valores-2, .valores-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.valores-imagem1, .valores-imagem2, .valores-imagem3{
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    color: black;
+    align-items: center;
+}
+
+
+
+.valores-1 p, .valores-2 p, .valores-3 p{
+    width:600px;
+    font-family:var(--font-padrao);
+    font-weight: 600;
+    text-align: justify;
+    text-indent: 35px;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
 
 
 
