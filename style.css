@@ -472,7 +472,8 @@ div.video > iframe{
 footer{
     background-image:linear-gradient(to bottom, #d6c100, #cfbb03);
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around; 
+    border: solid 1px black; 
 }
 
 .logo-footer{
@@ -535,15 +536,11 @@ footer{
     padding: 5px;
 }
 
-
-
-
   /*FIM FOOTER*/
 /* FIM PAGINA INICIAL < --------- */
 
 
-/*INICIO  ---> QUEM SOMOS <----------- */
-
+/*INICIO QUEM SOMOS*/
 .imagem-texto2{
     width: 100%;
     background-image:url(imagens/templates/quem\ somos\ 1.jpg);
@@ -562,7 +559,9 @@ footer{
     text-align: center;
     font-size: 60px;
 }
+/*FIM QUEM SOMOS*/
 
+/* INICIO CONHEÇA A SETTIME*/
 .img-corredor-texto{
     display: flex;
     justify-content: space-around;
@@ -571,7 +570,6 @@ footer{
 
 .img-corredor{
     height: 40em;
-
 }
 
 .img-corredor-texto p{
@@ -583,8 +581,9 @@ footer{
     padding: 10px;
     text-indent: 35px;
 }
+/*FIM CONHEÇA SETTIME*/
 
-
+/*INICIO NOSSO VALORES */
 .caixa-nossos-valores{
     background-color: black;
     color: white;
@@ -594,7 +593,8 @@ footer{
 .valores-1, .valores-2, .valores-3{
     display: flex;
     justify-content: space-around;
-    padding: 25px;
+    padding: 30px;
+
 }
 
 .valores-imagem1, .valores-imagem2, .valores-imagem3{
@@ -605,18 +605,90 @@ footer{
     align-items: center;
 }
 
-
-
 .valores-1 p, .valores-2 p, .valores-3 p{
     width:600px;
     font-family:var(--font-padrao);
     font-weight: 600;
     text-align: justify;
-    text-indent: 35px;
-    margin-top: 40px;
+    text-indent: 1.5em;
+    margin-top: -10px;
     padding: 10px;
     
 }
+
+.serviços{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serviços #serviço-1, .serviços #serviço-2, .serviços #serviço-3{
+    padding: 20px;
+    width: 300px;
+}
+
+.serviços #serviço-1 img, .serviços #serviço-2 img, .serviços #serviço-3 img{
+    width: 90px;
+    padding: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.serviços #serviço-1 p, .serviços #serviço-2 p, .serviços #serviço-3 p{
+    padding: 5px;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+/*FIM NOSSOS VALORES */
+/*FIM DA SEGUNDA PÁGINA QUEM SOMOS <---------------- */
+
+/*INICIO DA TERCEIRA PÁGINA CALENDÁRIO <------------ */
+/*INICIO HEADER TERCEÁRIO*/
+
+/*INICIO QUEM SOMOS*/
+.imagem-texto3{
+    width: 100%;
+    background-image:url(imagens/templates/pexels-run-ffwpu-2524739.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.quem-somos-h1{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.quem-somos-h1 h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+/*FIM QUEM SOMOS*/
+
+/*FIM HEADER TERCEÁRIO*/
+
+/* INICIO H1 CALENDÁRIO
+     JÁ ESTA MODIFICADO  */
+
+/*FIM H1 CALENDÁRIO*/
+
+/*INICIO HR CALENDARIO*/
+.hr-calendario{
+    background-color: black;
+    height: 5px;
+    border: none;
+}
+/*FIM HR CALENDARIO*/
+
+/*INICIO H2 CALENDÁRIO */
+.h2-calendario{
+    text-align: center;
+    padding: 25px 0;
+}
+/*FIM H2 CALENDARIO */
+
 
 
 
