@@ -43,7 +43,7 @@ body{
     background-image:linear-gradient(to bottom, #d6c100, #cfbb03);
     color: black;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .email-whats{
@@ -165,7 +165,7 @@ header{
     background: linear-gradient( rgba(0,0,0, 0.9), rgba(0,0,0, 0.7))!important;
     padding: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -700,22 +700,22 @@ footer{
 
 /* @MEDIA MENUS + BARRA TOP DAS PÁGINAS */
 
-  @media (max-width: 750px ) {
-    .barra-top{
-        display: none;
-    }
-
-    .logotipo{
-        display: none;
+@media(max-width:750px) {
+    .btn-mobile{
+        display: block;
     }
 
     .menu{
         display: none;
     }
 
-    .btn-mobile{
-        display: block;
+    .nav.active .menu{
+        display: flex;
     }
+}
+
+
+
 }
 /* FIM MENUS + BARRA TOP DAS PÁGINAS */
 
