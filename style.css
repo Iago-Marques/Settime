@@ -701,6 +701,24 @@ footer{
 /* @MEDIA MENUS + BARRA TOP DAS PÁGINAS */
 
 @media(max-width:750px) {
+
+    .barra-top{
+        display: none;
+    }
+
+    .logotipo{
+        display: none;
+    }
+
+    .h1-p h1{
+        font-size: 45px;
+    }
+
+    .h1-p p{
+        font-size: 20px;
+        margin-top: -35px;;
+    }
+
     .btn-mobile{
         display: block;
     }
@@ -712,11 +730,14 @@ footer{
     .nav.active .menu{
         display: flex;
     }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .orçamento
 }
 
-
-
-}
 /* FIM MENUS + BARRA TOP DAS PÁGINAS */
 
 /* INICIO @MEDIA HOME <------------- 
