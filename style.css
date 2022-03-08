@@ -706,17 +706,19 @@ footer{
         display: none;
     }
 
+
     .logotipo{
         display: none;
     }
 
     .h1-p h1{
         font-size: 45px;
+        margin-top: -150px;
     }
 
     .h1-p p{
-        font-size: 20px;
-        margin-top: -35px;;
+        font-size: 15px;
+        margin-top: -40px;;
     }
 
     .btn-mobile{
