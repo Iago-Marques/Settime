@@ -735,7 +735,18 @@ footer{
         font-size: 30px;
     }
 
-    .orçamento
+    .orçamento-img{
+        height: 250px;
+    }
+
+    .orçamento-img h2{
+        font-size: 40px;
+    }
+
+    .orçamento-img p{
+        font-size: 35px;
+        margin-top: 30px;
+    }
 }
 
 /* FIM MENUS + BARRA TOP DAS PÁGINAS */
