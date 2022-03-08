@@ -301,32 +301,49 @@ h3{
 
 
 div.img-evento1{
-    background-color: var(--cor1);
-    width: 100px;
+    background-image: url(imagens/icones/numero-branco.png);
+    background-size: cover;
+    width: 80px;
     height: 80px;
     margin: auto;
-    border-radius: 20px;
 }
 
 
 
 
 div.img-evento2{
-    background-color: var(--cor1);
-    width: 100px;
+    background-image: url(imagens/icones/pulseira-branca.png);
+    background-size: cover;
+    width: 80px;
     height: 80px;
     margin: auto;
-    border-radius: 20px;
 }
 
 
 div.img-evento3{
-    background-color: var(--cor1);
-    width: 100px;
+    background-image: url(imagens/icones/cronometro-branco.png);
+    background-size: cover;
+    width: 80px;
     height: 80px;
     margin: auto;
-    border-radius: 20px;
 }
+
+div.img-evento1:hover{
+    background-image: url(imagens/icones/numero.png);
+    transition: 0.5s;
+}
+
+div.img-evento2:hover{
+    background-image: url(imagens/icones/pulseira.png);
+    transition: 0.5s;
+}
+
+div.img-evento3:hover{
+    background-image: url(imagens/icones/cronometro.png);
+    transition: 0.5s;
+}
+
+
 
 /* FIM EVENTOS TECNOLOGIAS */
 
