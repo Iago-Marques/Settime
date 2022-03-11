@@ -43,7 +43,7 @@ body{
     background-image:linear-gradient(to bottom, #d6c100, #cfbb03);
     color: black;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .email-whats{
@@ -586,7 +586,8 @@ footer{
 .img-corredor-texto{
     display: flex;
     justify-content: space-around;
-    padding: 10px;;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 .img-corredor{
@@ -594,8 +595,8 @@ footer{
 }
 
 .img-corredor-texto p{
-    width: 1000px;
-    height: 600px;
+    width: 850px;
+    height: 400px;
     font-family:var(--font-padrao);
     font-weight: 600;
     font-size: 20px;
@@ -605,62 +606,67 @@ footer{
 /*FIM CONHEÇA SETTIME*/
 
 /*INICIO NOSSO VALORES */
+
 .caixa-nossos-valores{
     background-color: black;
     color: white;
-    padding: 10px;
-}
-
-.valores-1, .valores-2, .valores-3{
     display: flex;
     justify-content: space-around;
-    padding: 30px;
-
+    margin: auto;
+    padding-bottom: 40px;
+    gap:10px;
+    flex-wrap:wrap;
 }
 
-.valores-imagem1, .valores-imagem2, .valores-imagem3{
-    background-color: wheat;
-    width: 200px;
-    height: 200px;
-    color: black;
-    align-items: center;
-}
 
-.valores-1 p, .valores-2 p, .valores-3 p{
-    width:600px;
-    font-family:var(--font-padrao);
-    font-weight: 600;
-    text-align: justify;
-    text-indent: 1.5em;
-    margin-top: -10px;
-    padding: 10px;
+
+div.img-valor1{
+    background-color: white;
+    background-image: url(imagens/icones/salvando.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: auto;
     
 }
 
-.serviços{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+div.img-valor2{
+    background-color: white;
+    background-image: url(imagens/icones/salvando.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    
 }
 
-.serviços #serviço-1, .serviços #serviço-2, .serviços #serviço-3{
-    padding: 20px;
+div.img-valor3{
+    background-color: white;
+    background-image: url(imagens/icones/salvando.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    
+}
+
+
+#valor-1 p, #valor-2 p, #valor-3 p{
     width: 300px;
-}
-
-.serviços #serviço-1 img, .serviços #serviço-2 img, .serviços #serviço-3 img{
-    width: 90px;
-    padding: 10px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.serviços #serviço-1 p, .serviços #serviço-2 p, .serviços #serviço-3 p{
-    padding: 5px;
+    font-family:var(--font-padrao);
     text-align: justify;
-    text-indent: 1.5em;
+    padding: 10px;
 }
+
+#valor-1, #valor-2, #valor-3{
+    padding: 10px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+    
+}
+
+
 /*FIM NOSSOS VALORES */
 /*FIM DA SEGUNDA PÁGINA QUEM SOMOS <---------------- */
 
