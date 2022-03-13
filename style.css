@@ -605,11 +605,59 @@ footer{
 }
 /*FIM CONHEÇA SETTIME*/
 
-/*INICIO NOSSO VALORES */
+/* INICIO NOSSOS SERVIÇOS */
 
-.caixa-nossos-valores{
+.h1-serviços{
     background-color: black;
     color: white;
+}
+
+.caixa-nossos-serviços{
+    background-color: black;
+    color: white;
+}
+
+.serviço-1, .serviço-2, .serviço-3{
+    display: flex;
+    gap: 10em;
+}
+
+.img-serviço-1, .img-serviço-2, .img-serviço-3{
+    background-color: var(--cor2);
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.texto-serviço-1, .texto-serviço-2, .texto-serviço-3{
+    padding: 25px;
+}
+
+.texto-serviço-1 h2, .texto-serviço-2 h2, .texto-serviço-3 h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.texto-serviço-1 p, .texto-serviço-2 p, .texto-serviço-3 p{
+    text-align: justify;
+    
+}
+
+hr{
+    margin-bottom: 15px;
+    padding: 2px;
+    background-color: white;
+}
+
+/* FIM NOSSOS SERVIÇOS */
+
+
+
+/*INICIO NOSSO VALORES */
+.caixa-nossos-valores{
+
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -618,21 +666,20 @@ footer{
     flex-wrap:wrap;
 }
 
-
-
 div.img-valor1{
     background-color: white;
-    background-image: url(imagens/icones/salvando.png);
+    background-image: url(imagens/icones/cronometro.png);
     background-size: cover;
     width: 80px;
     height: 80px;
     margin: auto;
     
+    
 }
 
 div.img-valor2{
     background-color: white;
-    background-image: url(imagens/icones/salvando.png);
+    background-image: url(imagens/icones/pulseira-branca.png);
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -642,7 +689,7 @@ div.img-valor2{
 
 div.img-valor3{
     background-color: white;
-    background-image: url(imagens/icones/salvando.png);
+    background-image: url(imagens/icones/numero.png);
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -665,7 +712,6 @@ div.img-valor3{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
     
 }
-
 
 /*FIM NOSSOS VALORES */
 /*FIM DA SEGUNDA PÁGINA QUEM SOMOS <---------------- */
